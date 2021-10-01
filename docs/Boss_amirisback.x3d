@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE X3D PUBLIC "ISO//Web3D//DTD X3D 3.0//EN" "http://www.web3d.org/specifications/x3d-3.0.dtd">
+<X3D version="3.0" profile="Immersive" xmlns:xsd="http://www.w3.org/2001/XMLSchema-instance" xsd:noNamespaceSchemaLocation="http://www.web3d.org/specifications/x3d-3.0.xsd">
+	<head>
+		<meta name="filename" content="Boss_amirisback.x3d" />
+		<meta name="generator" content="Blender 2.79 (sub 0)" />
+	</head>
+	<Scene>
+		<NavigationInfo headlight="false"
+		                visibilityLimit="0.0"
+		                type='"EXAMINE", "ANY"'
+		                avatarSize="0.25, 1.75, 0.75"
+		                />
+		<Background DEF="WO_World"
+		            groundColor="0.051 0.051 0.051"
+		            skyColor="0.051 0.051 0.051"
+		            />
+		<Transform DEF="Spot_TRANSFORM"
+		           translation="0.778847 13.186056 6.966681"
+		           scale="1.000000 1.000000 1.000000"
+		           rotation="-0.003899 0.456303 0.889816 3.107081"
+		           >
+			<SpotLight DEF="LA_Spot"
+			           radius="23.9518"
+			           ambientIntensity="0.0000"
+			           intensity="0.5714"
+			           color="1.0000 1.0000 1.0000"
+			           beamWidth="0.2906"
+			           cutOffAngle="0.3778"
+			           direction="0.0000 -0.0000 -1.0000"
+			           location="-0.0000 0.0000 -0.0000"
+			           />
+		</Transform>
+		<Transform DEF="Sun_TRANSFORM"
+		           translation="7.148476 12.013786 -8.534681"
+		           scale="1.000000 1.000000 1.000000"
+		           rotation="-0.000000 0.919818 0.392346 3.141593"
+		           >
+			<DirectionalLight DEF="LA_Sun"
+			                  ambientIntensity="0.0000"
+			                  color="1.0000 1.0000 1.0000"
+			                  intensity="0.5714"
+			                  direction="-0.0000 0.0000 -1.0000"
+			                  />
+		</Transform>
+		<Transform DEF="rig_001_TRANSFORM"
+		           translation="0.000000 0.000000 0.000000"
+		           scale="1.000000 1.000000 1.000000"
+		           rotation="0.000000 0.707107 0.707107 3.141593"
+		           >
+			<Transform DEF="Cube_001_TRANSFORM"
+			           translation="0.011706 -0.000000 0.009002"
+			           scale="-0.076542 -1.284639 -0.021142"
+			           rotation="-0.000000 1.000000 -0.000000 3.141594"
+			           >
+				<Transform DEF="Cube_001_ifs_TRANSFORM"
+				           translation="-0.000000 0.000000 -0.000000"
+				           scale="1.000000 1.000000 1.000000"
+				           rotation="0.000000 -0.000000 0.000000 0.000000"
+				           >
+					<Group DEF="group_ME_Cube">
